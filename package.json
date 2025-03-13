@@ -1,0 +1,23 @@
+{
+  "name": "groq-twitter-search",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": ["groq", "twitter", "ai", "search"],
+  "author": "",
+  "license": "ISC",
+  "description": "CLI application that uses Groq to generate Twitter search queries and fetch tweets as sources for answers",
+  "dependencies": {
+    "agent-twitter-client": "latest",
+    "groq-sdk": "^0.4.0",
+    "dotenv": "^16.3.1",
+    "commander": "^11.1.0",
+    "ora": "^7.0.1",
+    "chalk": "^5.3.0",
+    "boxen": "^7.1.1",
+    "inquirer": "^9.2.12"
+  }
+}
