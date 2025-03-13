@@ -1,5 +1,5 @@
 {
-  "name": "groq-twitter-search",
+  "name": "tweet-access-llm",
   "version": "1.0.0",
   "main": "index.js",
   "type": "module",
